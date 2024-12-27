@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title> {{title}} </title>
+    </header>
+
+    <body>
+        <style>
+
+            div{
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                flex-durection: column;          
+            }
+        </style>
+        <div>
+            <img src="{{main.image.url}}" 
+            with="150px" height = "150px" alt="">
+            <h2> {{full_name}} </h2>
+            <h5> {{direction}} </h5>
+            <p> {{bio}} </p>
+        </div>       
+    </body>
+</html>
